@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+img {
+	width: 100%;
+	height: 700px;}
+.project-header {
+  width: 84.63%;
+  float: right;
+  min-height: 100px;
+  background: red; }
+  
+  .project-header .project-header__title_1 {
+    font-family: "Open Sans";
+    padding-top: 30px;
+    text-align: center; }
+	
+	.project-header__title_2 {
+		font-family: "Open Sans";
+		padding-top: 10px;
+		text-align: center;}
+		
+		
+.block_menu {
+  background: #08ff0c;
+  position: fixed;
+  min-height: 100%;
+  width: 15.33%;
+  float: left;
+  margin-top: 2px;
+  border-right: 2px solid purple;}
+
+.project-menu {
+  list-style: none; }
+  .project-menu .project-menu__item {
+    border: 1px solid black;
+    margin-bottom: 1px; }
+    .project-menu .project-menu__item a {
+      display: block;
+      padding: 8px 10px;
+      text-decoration: none;
+      background: #00e604;
+      color: white; }
+    .project-menu .project-menu__item a:hover {
+      background: #08ff0c;
+      color: black; }
+
+.project-content {
+  width: 84.63%;
+  float: right;
+  min-height: 500px;
+  text-align: center; }
+  .project-content {
+    max-width: 80%; }
+  .project-content .project-content__title {
+    padding: 10px; }
+  .project-content p {
+    text-align: left;
+    line-height: 1.5em; }
+  .project-content .main_info {
+    text-align: center;
+    background: #d9d9d9; }
+
+.project-sidebar {
+  float: right;
+  width: 84.63%;
+  min-height: 130px;
+  margin-top: 2px; }
+  .project-sidebar .aside-menu {
+    list-style: none; }
+	
+	
+    .project-sidebar .aside-menu .aside-menu__item a {
+      display: block;
+      padding: 8px 10px;
+      text-decoration: none;
+      color: blue;
+	  text-align: center;
+	  }
+    .project-sidebar .aside-menu .aside-menu__item a:hover {
+      color: #00e604; }
+	
+	
+.project-footer {
+  float: right;
+  width: 84.63%;
+  min-height: 20px;
+  text-align: center;
+  margin-top: 2px; }
+  .project-footer .autor {
+    margin: 10px 10px 10px 80px; }
+	
+	.hr {
+    background-color: purple;
+    height: 2px;
+   }
+	
